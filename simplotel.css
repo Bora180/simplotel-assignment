@@ -1,0 +1,228 @@
+.bg-container {
+    background: linear-gradient(to right, #fcf4b4, #ffb4ec);
+    height: 150vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.burger-image {
+    height: 60vh;
+    width: 64vh;
+}
+
+.navbar {
+    font-family: "#roboto";
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #fc7474;
+    margin-left: auto;
+    list-style: none;
+}
+
+
+.no-bullets {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    background-color: #fc7474;
+}
+
+.right-contianer {
+    font-family: "#roboto";
+    background-color: #fc7474;
+    padding: 20px;
+    height: 21vh;
+    width: 35vh;
+    margin: 50px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    width: 60vh;
+
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.content {
+    padding: 20px;
+    height: 60vh;
+    width: 60vh;
+
+}
+
+.button {
+    height: 30px;
+    width: 145px;
+    color: white;
+    border-color: #fc7474;
+    margin-top: 20px;
+}
+
+.images {
+    width: 25vh;
+    height: 25;
+    padding: 5px;
+}
+
+.box {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+.image {
+    height: 42vh;
+    width: 25vh;
+    margin-top: 12px;
+}
+
+.heading {
+    text-align: left;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.paragraph {
+    text-align: left;
+    font-size: 30px;
+}
+
+.paragraph1 {
+    font-size: 20px;
+}
+
+.heading2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "#roboto";
+}
+
+.paragraph2 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+@media screen and (max-width:576px) {
+    .section-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .bg-container {
+        height: 200vh;
+        width: 100%;
+    }
+
+    .content {
+        height: 40vh;
+        width: 90%;
+    }
+
+    .burger-image {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .grid-container {
+        margin-left: 30px;
+    }
+
+    .right-contianer {
+        margin-left: 90px;
+        width: 40vh;
+        height: 30vh;
+    }
+
+    .paragraph {
+        text-align: left;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .section-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .first-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content {
+        height: 30vh;
+        width: 90%;
+    }
+
+    .bg-container {
+        height: 150vh;
+        width: 173%;
+    }
+
+    .grid-container {
+        margin-top: 80px;
+
+    }
+
+    .right-contianer {
+        margin-top: 200px;
+        height: 20vh;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+    .first-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .second-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right-contianer {
+        height: 20vh;
+        width: 40vh;
+    }
+}
